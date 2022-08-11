@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+}
+
+body {
+   background-color: hsl(216, 12%, 8%);
+}
+
+main {
+    background-color: hsl(213, 19%, 18%);
+    width: 30%;
+    border-radius: 2rem;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main .container {
+    height: 100%;
+    padding: 2rem;
+}
+
+main .container .borderimage {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 7rem;
+    width: 15%;
+    height: 15%;
+    border: 1px solid hsl(216, 12%, 54%);
+}
+
+main .container .borderimage img {
+    width: 35%;
+    height: 35%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.container .title {
+    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
+    font-size: 1.7rem;
+    font-family: 'Overpass', sans-serif;
+}
+
